@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\logix\Desktop\cpp project\AADS1\AADS1\Source.cpp(21,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\logix\Desktop\cpp project\AADS1\AADS1\Source.cpp(21,42): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  AADS1.vcxproj -> C:\Users\logix\Desktop\cpp project\AADS1\Debug\AADS1.exe
