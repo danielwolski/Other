@@ -1,0 +1,26 @@
+﻿  Animal.cpp
+  Antelope.cpp
+  Belladonna.cpp
+  Fox.cpp
+  Grass.cpp
+  Guarana.cpp
+  Human.cpp
+  Main.cpp
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\Main.cpp(12,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\Main.cpp(14,7): warning C4101: "tmpInput": lokalna zmienna, do której nie istnieje odwołanie
+  Organism.cpp
+  OrganismMaker.cpp
+  Plant.cpp
+  Sheep.cpp
+  SosnowskysHogweed.cpp
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\SosnowskysHogweed.cpp(32,23): error C2589: "stała": niedozwolony token po prawej stronie "::"
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\SosnowskysHogweed.cpp(32): error C2062: nieoczekiwany typ "unknown-type"
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\SosnowskysHogweed.cpp(33,1): error C2512: "Plant": niedostępny odpowiedni konstruktor domyślny
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\Plant.h(4,7): message : zobacz deklarację „Plant”
+  SowThistle.cpp
+  Turtle.cpp
+  Wolf.cpp
+  World.cpp
+  Generowanie kodu...
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\Turtle.cpp(38): warning C4715: "Turtle::special_action_while_attack”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\logix\Desktop\Nowy folder (5)\PO_PROJECT1\Human.cpp(85): warning C4715: "Human::move”: niewszystkie ścieżki kodu zwracają wartość
