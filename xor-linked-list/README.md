@@ -1,6 +1,6 @@
 # XOR linked list
 
-Implementation of a bidirectional list in C++. Classic bidirectional list stores successor and predcessor addresses in nodes, this project implements storage of xor of these adresses in nodes. This saes ~50% of memory used by the list structure
+Implementation of a bidirectional list in C++. Classic bidirectional list stores successor and predcessor addresses in nodes, this project implements storage of xor of these adresses in nodes. This saves ~50% of memory used by the list structure.
 
 The list provides the following functionalities related to the following commands:
 
