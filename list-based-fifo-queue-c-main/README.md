@@ -4,7 +4,7 @@
 Implementation of FIFO queue - it is an extension of XOR linked list
 In addition to the functions of the XOR list (ADD_BEG, ADD_END, DEL_BEG, DEL_END, PRINT_FORWARD, PRINT_BACKWARD) from the XOR linked list the list implements:
 
-SIZE - liczba elementów listy.
+SIZE - number of list elements.
 The queue is a data structure that uses list and provides functions corresponding to the following commands:
 
 
