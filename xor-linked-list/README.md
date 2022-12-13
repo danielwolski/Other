@@ -73,10 +73,7 @@ DEL_VAL 4
 
 PRINT_FORWARD
 
-
-
-
-
+____________
 Output:
 
 
