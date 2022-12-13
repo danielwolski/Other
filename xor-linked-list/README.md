@@ -11,7 +11,6 @@ The task requires that we have an additional pointer showing the current value u
 The list provides the following functionalities related to the following commands:
 
 ACTUAL - value of the currently pointed element. For an empty list it is NULL and after adding the first element to the list 
-
 ACTUAL returns the value of that element as long as it is not moved by other operations.
 
 NEXT - prints the value of the ACTUAL successor setting it ACTUAL at the same time. If ACTUAL points to the last element of 
@@ -43,3 +42,30 @@ PRINT_BACKWARD - prints the contents of the list from the last to the first elem
 The behavior of the NEXT, PREV and DEL_ACT commands suggests action on a circular queue in which (except for an empty queue) there is always a successor and a predecessor for each node. When such a queue has only one element, the xor value of this node is 0. However, the implementation of the circular queue is not required and is not forbidden. Instead, it is possible to implement additional functionality of the NEXT and PREV commands. It will be run when an exceptional situation occurs, i.e. NEXT call when ACTUAL points to the last element of the queue, or PREV or DEL_ACT when ACTUAL points to the first element of a non-cyclic queue.
 
 DEL_BEG, DEL_END, DEL_VAL, and DEL_ACT commands for an empty list do not remove anything. In each of these cases, removing the currently pointed element (ACTUAL command) should result in moving the currently pointed element pointer to the preceding element, and if it does not exist, to the last element of the list.
+________________
+EXAMPLE
+
+Input:
+ADD_END 1
+ADD_BEG 2
+ADD_END 3
+ADD_BEG 4
+PRINT_FORWARD
+DEL_VAL 3
+PRINT_FORWARD
+DEL_VAL 2
+PRINT_FORWARD
+ADD_END 1
+ADD_BEG 2
+ADD_END 3
+ADD_BEG 4
+PRINT_FORWARD
+DEL_VAL 4
+PRINT_FORWARD
+
+Output:
+4 2 1 3 
+4 2 1 
+4 1 
+4 2 4 1 1 3 
+2 1 1 3 
