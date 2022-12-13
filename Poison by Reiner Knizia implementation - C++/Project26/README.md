@@ -4,4 +4,4 @@ Implementation of Poison game by Reiner Knizia done as a project for programming
 
 After setting initial parameters a full gameplay between n 'players' is simulated.
 
-Rules (in polish) can be found here:http://aleplanszowki.pl/pliki/Trucizna_RULES_PL_web.pdf
+Rules (in Polish) can be found here:http://aleplanszowki.pl/pliki/Trucizna_RULES_PL_web.pdf
